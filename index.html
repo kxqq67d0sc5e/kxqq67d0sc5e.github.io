@@ -1,0 +1,1187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>极品反差_官方视频社区,看见每一面真实</title>
+<meta name="description" content="极品反差官方网站，专注反差叙事与人物多面性的原创高清视频社区，汇聚创作者、精品内容与企业级内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121420'/%3E%3Cpath d='M18 44V20h10a8 8 0 010 16h-6v8z' fill='%23ff3d5a'/%3E%3Ccircle cx='46' cy='26' r='7' fill='%23ffd166'/%3E%3Ccircle cx='46' cy='44' r='7' fill='%2345e0c0'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jpf-bg:#0d0e14;
+  --jpf-bg2:#12141f;
+  --jpf-panel:#181b28;
+  --jpf-panel2:#1f2233;
+  --jpf-line:#2a2e42;
+  --jpf-text:#eef0f7;
+  --jpf-muted:#9aa0b8;
+  --jpf-red:#ff3d5a;
+  --jpf-yellow:#ffd166;
+  --jpf-cyan:#45e0c0;
+  --jpf-purple:#9b6bff;
+  --jpf-radius:16px;
+  --jpf-sticky:118px;
+  --jpf-shadow:0 18px 40px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--jpf-sticky)}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 600px at 85% -10%, rgba(155,107,255,.20), transparent 60%),
+    radial-gradient(900px 500px at 0% 5%, rgba(255,61,90,.14), transparent 55%),
+    var(--jpf-bg);
+  color:var(--jpf-text);
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+h1,h2,h3,h4{margin:0;line-height:1.3;letter-spacing:.2px}
+p{margin:0 0 12px}
+.jpf-shell{width:min(1200px,calc(100% - 40px));margin:0 auto}
+
+/* ---------- sticky header ---------- */
+.jpf-topbar{
+  position:sticky;top:0;z-index:60;
+  backdrop-filter:blur(14px);
+  background:linear-gradient(180deg,rgba(13,14,20,.96),rgba(13,14,20,.90));
+  border-bottom:1px solid var(--jpf-line);
+}
+.jpf-notice{
+  display:flex;align-items:center;gap:14px;
+  background:linear-gradient(90deg,rgba(255,61,90,.20),rgba(155,107,255,.18) 45%,rgba(69,224,192,.14));
+  border-bottom:1px solid var(--jpf-line);
+  font-size:13.5px;
+}
+.jpf-notice .jpf-shell{display:flex;align-items:center;gap:14px;padding:9px 0;flex-wrap:wrap}
+.jpf-notice-tag{
+  flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;
+  background:var(--jpf-red);color:#150207;font-weight:700;
+  padding:2px 10px;border-radius:999px;font-size:12px;letter-spacing:.6px;
+}
+.jpf-notice-text{color:#dfe3f2;flex:1 1 320px;min-width:0}
+.jpf-notice-text strong{color:var(--jpf-yellow)}
+.jpf-notice-list{display:flex;gap:18px;color:var(--jpf-muted);font-size:12.5px;flex:0 1 auto}
+.jpf-notice-list span::before{content:"·";margin-right:6px;color:var(--jpf-cyan)}
+
+.jpf-header{position:relative}
+.jpf-header-inner{display:flex;align-items:center;gap:18px;padding:12px 0}
+.jpf-brand{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.jpf-brand-mark{
+  width:42px;height:42px;border-radius:12px;flex:0 0 auto;
+  background:conic-gradient(from 210deg,#ff3d5a,#ffd166,#45e0c0,#9b6bff,#ff3d5a);
+  display:grid;place-items:center;font-weight:900;color:#0d0e14;font-size:17px;
+  box-shadow:0 8px 20px rgba(255,61,90,.30);
+}
+.jpf-brand-name{font-size:19px;font-weight:800;letter-spacing:1px}
+.jpf-brand-sub{font-size:11px;color:var(--jpf-muted);letter-spacing:1.6px;text-transform:uppercase}
+
+.jpf-nav{display:flex;gap:4px;margin-left:8px;flex-wrap:wrap}
+.jpf-nav a{
+  padding:7px 12px;border-radius:9px;font-size:14px;color:#c9ceE2;transition:.2s;
+}
+.jpf-nav a:hover,.jpf-nav a:focus-visible{background:var(--jpf-panel2);color:#fff}
+
+.jpf-search{
+  margin-left:auto;display:flex;align-items:center;gap:8px;
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-radius:999px;
+  padding:5px 6px 5px 14px;min-width:240px;transition:.25s;
+}
+.jpf-search:focus-within{border-color:var(--jpf-cyan);box-shadow:0 0 0 3px rgba(69,224,192,.14)}
+.jpf-search input{
+  background:transparent;border:0;outline:none;color:var(--jpf-text);
+  font-size:13.5px;width:100%;min-width:0;
+}
+.jpf-search input::placeholder{color:#6c7390}
+.jpf-search button{
+  border:0;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;
+  background:linear-gradient(120deg,var(--jpf-red),#ff7a4d);color:#150207;
+}
+.jpf-search-feedback{
+  position:absolute;left:0;right:0;top:calc(100% + 6px);
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-radius:12px;
+  padding:10px 14px;font-size:13px;color:var(--jpf-muted);display:none;box-shadow:var(--jpf-shadow);
+}
+.jpf-search-feedback.is-on{display:block}
+.jpf-nav-toggle{
+  display:none;margin-left:auto;border:1px solid var(--jpf-line);background:var(--jpf-panel);
+  color:var(--jpf-text);border-radius:10px;padding:8px 12px;font-size:14px;
+}
+
+/* ---------- buttons ---------- */
+.jpf-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:11px;
+  padding:11px 20px;font-size:14px;font-weight:700;border:1px solid transparent;
+  transition:transform .18s,box-shadow .18s,background .18s,border-color .18s;
+}
+.jpf-btn:hover{transform:translateY(-2px)}
+.jpf-btn-primary{background:linear-gradient(120deg,var(--jpf-red),#ff7a4d);color:#150207;box-shadow:0 12px 26px rgba(255,61,90,.28)}
+.jpf-btn-ghost{background:transparent;border-color:var(--jpf-line);color:var(--jpf-text)}
+.jpf-btn-ghost:hover{border-color:var(--jpf-cyan);color:#fff}
+.jpf-btn-soft{background:var(--jpf-panel2);color:var(--jpf-text);border-color:var(--jpf-line)}
+.jpf-btn-sm{padding:7px 13px;font-size:12.5px;border-radius:9px}
+
+/* ---------- hero ---------- */
+.jpf-hero{padding:38px 0 20px}
+.jpf-hero-grid{
+  display:grid;grid-template-columns:minmax(0,6fr) minmax(0,4fr);gap:34px;align-items:center;
+}
+.jpf-kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:1.4px;
+  color:var(--jpf-cyan);text-transform:uppercase;margin-bottom:16px;
+  border:1px solid rgba(69,224,192,.32);padding:5px 12px;border-radius:999px;
+  background:rgba(69,224,192,.07);
+}
+.jpf-hero h1{
+  font-size:clamp(42px,7vw,86px);font-weight:900;letter-spacing:2px;
+  background:linear-gradient(100deg,#fff 6%,var(--jpf-yellow) 38%,var(--jpf-red) 66%,var(--jpf-purple) 96%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  margin-bottom:6px;
+}
+.jpf-hero-slogan{font-size:clamp(17px,2.2vw,23px);font-weight:700;color:#fff;margin-bottom:16px}
+.jpf-hero-slogan em{font-style:normal;color:var(--jpf-yellow)}
+.jpf-hero-intro{color:#c3c8db;font-size:15px;max-width:56ch}
+.jpf-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 24px}
+.jpf-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:520px}
+.jpf-stat{
+  background:linear-gradient(160deg,var(--jpf-panel),rgba(31,34,51,.4));
+  border:1px solid var(--jpf-line);border-radius:13px;padding:13px 15px;
+}
+.jpf-stat b{display:block;font-size:23px;font-weight:900;color:var(--jpf-cyan);letter-spacing:.5px}
+.jpf-stat span{font-size:12px;color:var(--jpf-muted)}
+.jpf-hero-visual{position:relative}
+.jpf-hero-figure{
+  border-radius:22px;overflow:hidden;border:1px solid var(--jpf-line);
+  box-shadow:0 30px 70px rgba(0,0,0,.55);
+}
+.jpf-hero-figure img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.jpf-hero-badge{
+  position:absolute;left:-14px;bottom:24px;
+  background:rgba(13,14,20,.92);border:1px solid var(--jpf-line);
+  border-radius:14px;padding:12px 16px;box-shadow:var(--jpf-shadow);
+  display:flex;gap:12px;align-items:center;max-width:88%;
+}
+.jpf-hero-badge i{
+  width:38px;height:38px;border-radius:10px;flex:0 0 auto;display:grid;place-items:center;
+  background:linear-gradient(140deg,var(--jpf-purple),var(--jpf-cyan));color:#0d0e14;font-style:normal;font-weight:900;
+}
+.jpf-hero-badge b{display:block;font-size:13.5px}
+.jpf-hero-badge span{font-size:11.5px;color:var(--jpf-muted)}
+
+/* ---------- generic section ---------- */
+.jpf-section{padding:54px 0}
+.jpf-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:26px;flex-wrap:wrap}
+.jpf-section-head h2{font-size:clamp(24px,3.4vw,34px);font-weight:900;letter-spacing:.6px}
+.jpf-section-head h2 span{color:var(--jpf-red)}
+.jpf-section-desc{color:var(--jpf-muted);font-size:14px;max-width:62ch}
+.jpf-eyebrow{display:block;font-size:12px;letter-spacing:2.4px;color:var(--jpf-cyan);text-transform:uppercase;margin-bottom:8px}
+
+/* ---------- focus / video ---------- */
+.jpf-video-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:26px;align-items:start}
+.jpf-focus-card{
+  background:linear-gradient(165deg,var(--jpf-panel),#141626);
+  border:1px solid var(--jpf-line);border-radius:var(--jpf-radius);overflow:hidden;
+  transition:transform .22s,border-color .22s,box-shadow .22s;
+}
+.jpf-focus-card:hover{transform:translateY(-4px);border-color:rgba(255,61,90,.5);box-shadow:0 22px 46px rgba(255,61,90,.14)}
+.jpf-focus-card img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.jpf-focus-body{padding:18px 20px 20px}
+.jpf-chip{
+  display:inline-block;font-size:11.5px;letter-spacing:.6px;padding:3px 10px;border-radius:999px;
+  background:rgba(255,61,90,.14);color:#ff8b9c;border:1px solid rgba(255,61,90,.30);margin-right:6px;
+}
+.jpf-chip-cyan{background:rgba(69,224,192,.12);color:var(--jpf-cyan);border-color:rgba(69,224,192,.3)}
+.jpf-chip-yellow{background:rgba(255,209,102,.12);color:var(--jpf-yellow);border-color:rgba(255,209,102,.3)}
+.jpf-chip-purple{background:rgba(155,107,255,.14);color:#c7aaff;border-color:rgba(155,107,255,.32)}
+.jpf-focus-body h3{font-size:20px;font-weight:800;margin:12px 0 8px}
+.jpf-focus-body p{font-size:13.5px;color:#b6bccf}
+.jpf-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--jpf-muted);margin:12px 0}
+.jpf-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.jpf-act{
+  display:inline-flex;align-items:center;gap:6px;font-size:12.5px;
+  background:var(--jpf-panel2);border:1px solid var(--jpf-line);color:#cdd2e4;
+  border-radius:9px;padding:6px 11px;transition:.2s;
+}
+.jpf-act:hover{border-color:var(--jpf-cyan);color:#fff}
+.jpf-act.is-liked{background:rgba(255,61,90,.16);border-color:var(--jpf-red);color:#ff96a5}
+.jpf-act.is-saved{background:rgba(255,209,102,.14);border-color:var(--jpf-yellow);color:var(--jpf-yellow)}
+
+.jpf-video-list{display:flex;flex-direction:column;gap:10px}
+.jpf-video-item{
+  display:grid;grid-template-columns:52px minmax(0,1fr);gap:14px;
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-radius:13px;
+  padding:14px 16px;transition:.2s;
+}
+.jpf-video-item:hover{border-color:rgba(69,224,192,.45);background:var(--jpf-panel2)}
+.jpf-video-index{
+  font-size:19px;font-weight:900;color:transparent;
+  background:linear-gradient(140deg,var(--jpf-yellow),var(--jpf-red));
+  -webkit-background-clip:text;background-clip:text;text-align:left;
+}
+.jpf-video-item h3{font-size:15px;font-weight:700;margin-bottom:5px}
+.jpf-video-item p{font-size:12.5px;color:#a9afc5;margin:0 0 8px}
+.jpf-video-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.jpf-video-tags span{font-size:11px;color:#8e95b0;border:1px solid var(--jpf-line);border-radius:6px;padding:1px 7px}
+
+/* ---------- analysis ---------- */
+.jpf-analysis{
+  background:linear-gradient(150deg,rgba(155,107,255,.10),rgba(69,224,192,.06) 60%,transparent);
+  border:1px solid var(--jpf-line);border-radius:22px;padding:clamp(22px,4vw,42px);
+}
+.jpf-analysis h2{font-size:clamp(23px,3vw,30px);margin-bottom:8px}
+.jpf-analysis h3{font-size:18px;margin:24px 0 8px;color:var(--jpf-yellow)}
+.jpf-analysis p{font-size:14.5px;color:#c3c8db}
+.jpf-analysis .jpf-anal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:20px}
+.jpf-anal-card{background:rgba(13,14,20,.55);border:1px solid var(--jpf-line);border-radius:13px;padding:14px 16px}
+.jpf-anal-card b{display:block;color:var(--jpf-cyan);font-size:13.5px;margin-bottom:4px}
+.jpf-anal-card span{font-size:12.5px;color:var(--jpf-muted)}
+
+/* ---------- topics / specials ---------- */
+.jpf-special-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px}
+.jpf-special{
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-radius:16px;overflow:hidden;
+  display:flex;flex-direction:column;transition:.22s;
+}
+.jpf-special:hover{transform:translateY(-4px);border-color:rgba(255,209,102,.45)}
+.jpf-special img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.jpf-special-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.jpf-special-body h3{font-size:17px;font-weight:800}
+.jpf-special-body p{font-size:13px;color:#aab0c6;margin:0}
+.jpf-special-status{font-size:11.5px;color:var(--jpf-cyan)}
+.jpf-special ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.jpf-special ul li{font-size:12.5px;color:#c1c7db;padding-left:16px;position:relative}
+.jpf-special ul li::before{content:"▸";position:absolute;left:0;color:var(--jpf-red)}
+
+/* ---------- authors ---------- */
+.jpf-author-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:16px}
+.jpf-author{
+  background:linear-gradient(170deg,var(--jpf-panel),#151726);
+  border:1px solid var(--jpf-line);border-radius:16px;padding:18px;
+  display:flex;flex-direction:column;gap:10px;transition:.22s;
+}
+.jpf-author:hover{border-color:rgba(155,107,255,.5);transform:translateY(-3px)}
+.jpf-author-top{display:flex;align-items:center;gap:12px}
+.jpf-avatar{
+  width:48px;height:48px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;
+  font-weight:900;font-size:17px;color:#0d0e14;
+}
+.jpf-avatar-a{background:linear-gradient(140deg,#ff3d5a,#ffd166)}
+.jpf-avatar-b{background:linear-gradient(140deg,#45e0c0,#9b6bff)}
+.jpf-avatar-c{background:linear-gradient(140deg,#ffd166,#45e0c0)}
+.jpf-avatar-d{background:linear-gradient(140deg,#9b6bff,#ff3d5a)}
+.jpf-avatar-e{background:linear-gradient(140deg,#ff7a4d,#45e0c0)}
+.jpf-avatar-f{background:linear-gradient(140deg,#45e0c0,#ffd166)}
+.jpf-author-name{font-size:15px;font-weight:800}
+.jpf-author-field{font-size:11.5px;color:var(--jpf-cyan)}
+.jpf-author p{font-size:12.8px;color:#a8aec4;margin:0}
+.jpf-author-nums{display:flex;gap:14px;font-size:12px;color:var(--jpf-muted)}
+.jpf-author-nums b{color:var(--jpf-yellow)}
+
+/* ---------- quotes / reviews ---------- */
+.jpf-quote-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px}
+.jpf-quote{
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-left:3px solid var(--jpf-red);
+  border-radius:12px;padding:16px 18px;
+}
+.jpf-quote p{font-size:13.5px;color:#c8cde0;margin:0 0 10px}
+.jpf-quote footer{display:flex;align-items:center;gap:9px;font-size:12px;color:var(--jpf-muted)}
+.jpf-quote footer .jpf-avatar{width:28px;height:28px;font-size:12px}
+.jpf-rating{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:18px;
+}
+.jpf-rating div{background:rgba(69,224,192,.07);border:1px solid rgba(69,224,192,.24);border-radius:11px;padding:12px 14px}
+.jpf-rating b{display:block;font-size:20px;color:var(--jpf-cyan)}
+.jpf-rating span{font-size:12px;color:var(--jpf-muted)}
+
+/* ---------- news / partners ---------- */
+.jpf-two-col{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:24px;align-items:start}
+.jpf-news{display:flex;flex-direction:column;gap:10px}
+.jpf-news-item{
+  display:grid;grid-template-columns:88px minmax(0,1fr);gap:14px;
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-radius:12px;padding:12px 14px;
+}
+.jpf-news-date{font-size:12px;color:var(--jpf-yellow);font-weight:700;letter-spacing:.4px}
+.jpf-news-item h3{font-size:14px;margin-bottom:3px}
+.jpf-news-item p{font-size:12.4px;color:#a5abc2;margin:0}
+.jpf-partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.jpf-partner{
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-radius:11px;
+  padding:14px 12px;text-align:center;font-size:12.5px;color:#c5cade;transition:.2s;
+}
+.jpf-partner:hover{border-color:var(--jpf-purple);color:#fff}
+.jpf-partner b{display:block;font-size:14px;color:var(--jpf-cyan);margin-bottom:3px}
+
+/* ---------- faq ---------- */
+.jpf-faq{display:flex;flex-direction:column;gap:10px}
+.jpf-faq details{
+  background:var(--jpf-panel);border:1px solid var(--jpf-line);border-radius:12px;
+  padding:2px 16px;transition:.2s;
+}
+.jpf-faq details[open]{border-color:rgba(255,209,102,.42);background:var(--jpf-panel2)}
+.jpf-faq summary{
+  list-style:none;cursor:pointer;font-size:14px;font-weight:700;padding:13px 0;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.jpf-faq summary::-webkit-details-marker{display:none}
+.jpf-faq summary::after{content:"+";color:var(--jpf-red);font-size:19px;font-weight:800;line-height:1}
+.jpf-faq details[open] summary::after{content:"−"}
+.jpf-faq details p{font-size:13px;color:#aeb4ca;margin:0 0 14px}
+
+/* ---------- cta / footer ---------- */
+.jpf-cta{
+  background:linear-gradient(120deg,rgba(255,61,90,.16),rgba(155,107,255,.16));
+  border:1px solid var(--jpf-line);border-radius:20px;padding:clamp(22px,4vw,38px);
+  display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;
+}
+.jpf-cta h2{font-size:clamp(21px,2.8vw,27px);margin-bottom:6px}
+.jpf-cta p{font-size:13.5px;color:#c4c9dd;margin:0}
+.jpf-footer{border-top:1px solid var(--jpf-line);margin-top:34px;padding:36px 0 30px;background:rgba(13,14,20,.7)}
+.jpf-footer-grid{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(3,minmax(0,1fr));gap:26px}
+.jpf-footer h4{font-size:13px;color:#fff;margin-bottom:10px;letter-spacing:.6px}
+.jpf-footer p,.jpf-footer a{font-size:12.5px;color:#98a0b8}
+.jpf-footer a:hover{color:var(--jpf-cyan)}
+.jpf-footer-links{display:flex;flex-direction:column;gap:6px}
+.jpf-footer-bottom{
+  margin-top:26px;padding-top:16px;border-top:1px solid var(--jpf-line);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#828aa4;
+}
+
+/* ---------- modal & toast ---------- */
+.jpf-modal{
+  position:fixed;inset:0;z-index:120;display:none;place-items:center;padding:20px;
+  background:rgba(6,7,11,.78);backdrop-filter:blur(6px);
+}
+.jpf-modal.is-open{display:grid}
+.jpf-modal-card{
+  width:min(560px,100%);max-height:82vh;overflow:auto;background:var(--jpf-panel);
+  border:1px solid var(--jpf-line);border-radius:18px;padding:24px;box-shadow:var(--jpf-shadow);
+}
+.jpf-modal-card h3{font-size:19px;margin-bottom:10px}
+.jpf-modal-card p{font-size:13.5px;color:#b3b9cd}
+.jpf-modal-close{
+  float:right;border:1px solid var(--jpf-line);background:var(--jpf-panel2);color:#fff;
+  border-radius:9px;width:32px;height:32px;font-size:16px;line-height:1;
+}
+.jpf-toast{
+  position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);z-index:200;
+  background:rgba(24,27,40,.96);border:1px solid var(--jpf-line);color:#fff;
+  padding:11px 20px;border-radius:12px;font-size:13.5px;opacity:0;pointer-events:none;
+  transition:.28s;box-shadow:var(--jpf-shadow);
+}
+.jpf-toast.is-on{opacity:1;transform:translate(-50%,0)}
+.jpf-to-top{
+  position:fixed;right:22px;bottom:24px;z-index:90;width:46px;height:46px;border-radius:50%;
+  border:1px solid var(--jpf-line);background:var(--jpf-panel);color:#fff;font-size:18px;
+  display:none;place-items:center;box-shadow:var(--jpf-shadow);
+}
+.jpf-to-top.is-on{display:grid}
+
+/* ---------- responsive ---------- */
+@media (max-width:960px){
+  :root{--jpf-sticky:104px}
+  .jpf-hero-grid,.jpf-video-grid,.jpf-two-col{grid-template-columns:minmax(0,1fr)}
+  .jpf-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .jpf-hero-visual{order:-1}
+  .jpf-hero-figure img{aspect-ratio:16/10}
+  .jpf-search{display:none}
+  .jpf-nav-toggle{display:inline-flex}
+  .jpf-nav{
+    display:none;width:100%;flex-direction:column;padding:10px 0 4px;
+    border-top:1px solid var(--jpf-line);margin-top:8px;
+  }
+  .jpf-nav.is-open{display:flex}
+  .jpf-header-inner{flex-wrap:wrap}
+}
+@media (max-width:620px){
+  .jpf-shell{width:calc(100% - 28px)}
+  .jpf-hero-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .jpf-stat{padding:10px;border-radius:10px}
+  .jpf-stat b{font-size:18px}
+  .jpf-stat span{font-size:10.5px}
+  .jpf-footer-grid{grid-template-columns:minmax(0,1fr)}
+  .jpf-notice-list{display:none}
+  .jpf-hero-badge{position:static;margin-top:12px;max-width:100%}
+  .jpf-video-item{grid-template-columns:38px minmax(0,1fr);padding:12px}
+  .jpf-news-item{grid-template-columns:minmax(0,1fr)}
+  .jpf-section{padding:40px 0}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="jpf-topbar" id="jpfTop">
+  <div class="jpf-notice">
+    <div class="jpf-shell">
+      <span class="jpf-notice-tag">官方发布</span>
+      <div class="jpf-notice-text">
+        新增专题《<strong>反差七十二小时</strong>》已上线 12 条正片 · <strong>年度反差创作赛</strong>报名通道开启至 12 月 20 日
+      </div>
+      <div class="jpf-notice-list">
+        <span>企业动态更新 3 条</span>
+        <span>创作者入驻 +48 位</span>
+        <span>高清片源全部转码完成</span>
+      </div>
+    </div>
+  </div>
+  <header class="jpf-header">
+    <div class="jpf-shell jpf-header-inner">
+      <a class="jpf-brand" href="#jpfHero">
+        <span class="jpf-brand-mark">反</span>
+        <span>
+          <span class="jpf-brand-name">极品反差</span><br>
+          <span class="jpf-brand-sub">FANCHA STUDIO</span>
+        </span>
+      </a>
+      <nav class="jpf-nav" id="jpfNav" aria-label="主导航">
+        <a href="#jpfHero">首页</a>
+        <a href="#jpfVideos">精选视频</a>
+        <a href="#jpfAnalysis">反差解析</a>
+        <a href="#jpfSpecials">专题企划</a>
+        <a href="#jpfAuthors">创作者</a>
+        <a href="#jpfReviews">口碑</a>
+        <a href="#jpfNews">企业动态</a>
+        <a href="#jpfFaq">帮助</a>
+      </nav>
+      <div class="jpf-search" id="jpfSearchBox">
+        <input id="jpfSearchInput" type="search" placeholder="搜索视频 / 创作者 / 专题" aria-label="站内搜索">
+        <button type="button" id="jpfSearchBtn">搜索</button>
+      </div>
+      <button class="jpf-nav-toggle" id="jpfNavToggle" type="button" aria-expanded="false" aria-controls="jpfNav">菜单</button>
+      <div class="jpf-search-feedback" id="jpfSearchFeedback" role="status" aria-live="polite"></div>
+    </div>
+  </header>
+</div>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="jpf-hero" id="jpfHero">
+    <div class="jpf-shell jpf-hero-grid">
+      <div>
+        <span class="jpf-kicker">极品反差 · 官方网站</span>
+        <h1>极品反差</h1>
+        <p class="jpf-hero-slogan">看见每一面真实，<em>反差才是内容的力量</em></p>
+        <p class="jpf-hero-intro">
+          作为深耕反差叙事领域的原创视频品牌，极品反差官方网站以企业级内容标准搭建高清视频社区：我们记录人物在镜头内外的多面状态，记录城市与乡村、职业与生活、坚硬与柔软之间的真实落差。平台已持续运营多年，聚合专业创作者、品牌合作方与大量真实用户，把“反差”从一句网络流行语，做成值得信赖的内容生态。
+        </p>
+        <div class="jpf-hero-actions">
+          <a class="jpf-btn jpf-btn-primary" href="#jpfVideos">进入精选视频</a>
+          <a class="jpf-btn jpf-btn-ghost" href="#jpfSpecials">查看年度专题</a>
+          <button class="jpf-btn jpf-btn-soft" type="button" data-jpf-open="submit">投稿 / 报名参赛</button>
+        </div>
+        <div class="jpf-hero-stats">
+          <div class="jpf-stat"><b>3,860+</b><span>原创高清视频</span></div>
+          <div class="jpf-stat"><b>126 万</b><span>社区注册用户</span></div>
+          <div class="jpf-stat"><b>98.2%</b><span>用户口碑好评</span></div>
+        </div>
+      </div>
+      <div class="jpf-hero-visual">
+        <figure class="jpf-hero-figure">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1000'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23182036'/%3E%3Cstop offset='1' stop-color='%23341b3a'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff3d5a'/%3E%3Cstop offset='1' stop-color='%23ffd166'/%3E%3C/linearGradient%3E%3ClinearGradient id='g3' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2345e0c0'/%3E%3Cstop offset='1' stop-color='%239b6bff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='1000' fill='url(%23g1)'/%3E%3Ccircle cx='640' cy='180' r='120' fill='%23ffd166' opacity='0.16'/%3E%3Ccircle cx='160' cy='760' r='160' fill='%2345e0c0' opacity='0.12'/%3E%3Cpath d='M0 640 Q200 520 400 600 T800 560 V1000 H0 Z' fill='%23101422' opacity='0.85'/%3E%3Cpath d='M0 720 Q220 640 420 700 T800 660 V1000 H0 Z' fill='%230a0c15'/%3E%3Crect x='90' y='120' width='250' height='360' rx='16' fill='url(%23g2)' opacity='0.85'/%3E%3Crect x='460' y='300' width='230' height='330' rx='16' fill='url(%23g3)' opacity='0.75'/%3E%3Cpath d='M120 200 h190 M120 250 h140 M120 300 h170 M120 350 h110' stroke='%230d0e14' stroke-width='14' opacity='0.55'/%3E%3Cpath d='M500 380 h150 M500 430 h110 M500 480 h130' stroke='%230d0e14' stroke-width='12' opacity='0.5'/%3E%3Cpath d='M400 640 l-46 -70 h92 z' fill='%23ff3d5a'/%3E%3Ctext x='400' y='900' font-size='58' font-family='sans-serif' font-weight='900' fill='%23eef0f7' text-anchor='middle' opacity='0.92'%3E%E5%8F%8D%E5%B7%AE%3C/text%3E%3C/svg%3E" alt="极品反差官网首屏主视觉：左右两种色调的人像画框与城市剪影构成的反差构图" width="800" height="1000">
+        </figure>
+        <div class="jpf-hero-badge">
+          <i>VS</i>
+          <div>
+            <b>本周反差之最 · 破 210 万播放</b>
+            <span>《白天修表，晚上开嗓》匠人双面人生实录</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="jpf-section" id="jpfVideos">
+    <div class="jpf-shell">
+      <div class="jpf-section-head">
+        <div>
+          <span class="jpf-eyebrow">Featured Videos</span>
+          <h2>精选视频 · <span>反差现场</span></h2>
+          <p class="jpf-section-desc">极品反差官方编辑部每周筛出最具冲击力的真实影像，从人物访谈、城市探索到创作幕后，全部高清正版呈现。</p>
+        </div>
+        <a class="jpf-btn jpf-btn-ghost jpf-btn-sm" href="#jpfSpecials">查看全部专题 →</a>
+      </div>
+
+      <div class="jpf-video-grid">
+        <article class="jpf-focus-card">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 540'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231d2438'/%3E%3Cstop offset='1' stop-color='%234a1f2c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='960' height='540' fill='url(%23v1)'/%3E%3Ccircle cx='760' cy='130' r='90' fill='%23ffd166' opacity='0.24'/%3E%3Cpath d='M0 400 L180 300 L340 380 L520 260 L700 350 L960 240 V540 H0 Z' fill='%230d0e14' opacity='0.7'/%3E%3Crect x='110' y='120' width='200' height='250' rx='10' fill='%23ff3d5a' opacity='0.7'/%3E%3Crect x='360' y='170' width='200' height='200' rx='10' fill='%2345e0c0' opacity='0.55'/%3E%3Crect x='610' y='140' width='180' height='230' rx='10' fill='%239b6bff' opacity='0.5'/%3E%3Ccircle cx='480' cy='300' r='54' fill='%23ffffff' opacity='0.08'/%3E%3Cpath d='M462 274 l40 26 -40 26 z' fill='%23ffffff' opacity='0.9'/%3E%3C/svg%3E" alt="精选视频《白天修表，晚上开嗓》封面：三种色调的方形画框拼贴" width="960" height="540">
+          <div class="jpf-focus-body">
+            <span class="jpf-chip">本期焦点</span><span class="jpf-chip jpf-chip-yellow">人物访谈</span>
+            <h3>白天修表，晚上开嗓：一位手艺人被误解的二十年</h3>
+            <p>他在城南巷口守着一间不足十平米的修表摊，也在城市另一头的livehouse唱了十九年。镜头跟着他上午九点的镊子与夜里十一点的话筒，记录一个被“职业标签”遮住很久的男人。本期正片以双线剪辑呈现，讲述“误差”与“音准”之间的隐秘共性。</p>
+            <div class="jpf-meta">
+              <span>创作者：老巷唱片机</span>
+              <span>播放 210.4万</span>
+              <span>点赞 8.7万</span>
+              <span>收藏 2.3万</span>
+            </div>
+            <div class="jpf-actions">
+              <button class="jpf-act" type="button" data-jpf-like>♡ 点赞</button>
+              <button class="jpf-act" type="button" data-jpf-save>☆ 收藏</button>
+              <button class="jpf-act" type="button" data-jpf-share>分享</button>
+              <button class="jpf-act" type="button" data-jpf-comment>评论 1,204</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="jpf-video-list">
+          <article class="jpf-video-item">
+            <div class="jpf-video-index">01</div>
+            <div>
+              <h3>穿西装下乡的测量员：一条路修进深山之后</h3>
+              <p>西装与泥泞并存的一周，跟着工程测量员走完最后一段通村公路，看职业感如何被土地重新定义。</p>
+              <div class="jpf-video-tags"><span>城市探索</span><span>行业观察</span><span>高清</span></div>
+              <div class="jpf-meta"><span>山路观察员</span><span>播放 96.3万</span><span>点赞 3.1万</span></div>
+              <div class="jpf-actions">
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-like>♡ 点赞</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-save>☆ 收藏</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-share>分享</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="jpf-video-item">
+            <div class="jpf-video-index">02</div>
+            <div>
+              <h3>最安静的厨房，最吵的一顿饭：听障家庭的晚餐记录</h3>
+              <p>没有一句完整对白的三十分钟，却在锅铲和手语里听到最热闹的烟火气。</p>
+              <div class="jpf-video-tags"><span>日常记录</span><span>治愈影像</span></div>
+              <div class="jpf-meta"><span>半格胶片</span><span>播放 88.9万</span><span>点赞 4.6万</span></div>
+              <div class="jpf-actions">
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-like>♡ 点赞</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-save>☆ 收藏</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-share>分享</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="jpf-video-item">
+            <div class="jpf-video-index">03</div>
+            <div>
+              <h3>年薪百万辞职去养蜂：第三年他终于说实话</h3>
+              <p>从CBD到山谷，镜头里有浪漫化的晨雾，也有被蛰得红肿的手背和银行催款短信。</p>
+              <div class="jpf-video-tags"><span>人物访谈</span><span>生活方式</span><span>深度</span></div>
+              <div class="jpf-meta"><span>山谷来信</span><span>播放 142.7万</span><span>点赞 6.4万</span></div>
+              <div class="jpf-actions">
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-like>♡ 点赞</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-save>☆ 收藏</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-share>分享</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="jpf-video-item">
+            <div class="jpf-video-index">04</div>
+            <div>
+              <h3>化妆台前的硬汉：剧组特效化妆师的十二小时</h3>
+              <p>他手上的粉扑比拳头更稳，跟着一位军旅题材特效化妆师蹲守片场，看粗粝如何被精密切削。</p>
+              <div class="jpf-video-tags"><span>创作幕后</span><span>实用技巧</span></div>
+              <div class="jpf-meta"><span>片场手记</span><span>播放 61.2万</span><span>点赞 2.2万</span></div>
+              <div class="jpf-actions">
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-like>♡ 点赞</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-save>☆ 收藏</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-share>分享</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="jpf-video-item">
+            <div class="jpf-video-index">05</div>
+            <div>
+              <h3>菜市场里的钢琴：卖鱼大姐的一首《致爱丽丝》</h3>
+              <p>潮湿地面、塑料筐和一段并不完美的旋律，构成今年被转发最多的三十秒。</p>
+              <div class="jpf-video-tags"><span>在地文化</span><span>音乐现场</span></div>
+              <div class="jpf-meta"><span>市井拾音</span><span>播放 121.5万</span><span>点赞 9.2万</span></div>
+              <div class="jpf-actions">
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-like>♡ 点赞</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-save>☆ 收藏</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-share>分享</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="jpf-video-item">
+            <div class="jpf-video-index">06</div>
+            <div>
+              <h3>被叫“学霸”的第十年，他退学去做木工</h3>
+              <p>关于期待、自我与手感的一次长谈，也关于一块木头如何让人重新确认自己在世界上的位置。</p>
+              <div class="jpf-video-tags"><span>情感故事</span><span>手作DIY</span></div>
+              <div class="jpf-meta"><span>木屑与光</span><span>播放 73.8万</span><span>点赞 3.5万</span></div>
+              <div class="jpf-actions">
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-like>♡ 点赞</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-save>☆ 收藏</button>
+                <button class="jpf-act jpf-btn-sm" type="button" data-jpf-share>分享</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ANALYSIS ============ -->
+  <section class="jpf-section" id="jpfAnalysis">
+    <div class="jpf-shell">
+      <div class="jpf-analysis">
+        <span class="jpf-eyebrow">Deep Interpretation</span>
+        <h2>反差解析：为什么“极品反差”值得被长期记录</h2>
+        <p>在内容行业里，“反差”常被当成短平快的流量技巧，但在极品反差的官方内容标准中，它更像一种观看方法：先承认一个人的复杂，再让镜头找到复杂之间的关系。我们坚持用企业级制作规范对待每一条内容，因为只有真实、完整、有耐心的记录，才配得上“极品”二字。</p>
+
+        <h3>一、从“标签冲击”到“关系叙事”：反差的第一层理解</h3>
+        <p>最初的反差，往往来自视觉与身份的错位：西装与泥地、硬汉与粉扑、菜市场与钢琴。这类冲击确实高效，但它只是一层入口。极品反差在选题会上反复确认一个标准：如果去掉那层冲击，故事是否仍然成立？在《白天修表，晚上开嗓》里，我们用了整整四十天做前期沟通，最后成片里最打动人的不是“修表匠会唱歌”这个设定，而是他谈起二十年误差与音准时那种近乎固执的平静。反差在这里不是噱头，而是把两个原本被分开的世界重新接上的一根线。平台的内容生态也因此形成一种默契：先拍关系，再拍冲突；先给时间，再给结论。</p>
+
+        <h3>二、专业制作如何服务“真实”：我们的四道内容关卡</h3>
+        <p>作为持续运营的原创视频品牌，极品反差为每条正片设置四道关卡。第一道是选题验证，要求编导提交不少于八百字的拍摄说明，写清人物背景、预期落差和伦理风险；第二道是拍摄规范，包括但不限于双机位、同期声、环境空镜、至少一次不带提纲的自由跟拍；第三道是后期审看，剪辑必须保留人物的完整表达，不得用断章取义制造廉价冲突；第四道是上线复核，由内容生态团队对事实、授权和版权进行二次确认。我们相信，值得信赖的口碑不是喊出来的，而是由这些看起来琐碎的标准堆起来的。对创作者来说，这四道关卡也构成了一套可复用的专业方法；对用户来说，它意味着“极品反差出品”约等于“可放心观看”。</p>
+
+        <h3>三、平台、创作者与用户的三方关系：反差的第二层价值</h3>
+        <p>很多用户第一次来到极品反差官方网站，是因为某条爆款；留下来，则是因为这里稳定的社区气质。我们的创作者矩阵覆盖人物访谈、城市探索、手作、音乐现场等方向，他们被鼓励拍摄自己最熟悉、但也最容易被忽视的生活切面。平台提供高清转码、正版素材库与创作灵感工具，创作者贡献真实样本与方法论，用户则通过点赞、收藏、评论和投稿反馈，持续校正内容方向。这样一种三方循环，让反差题材不至于沦为一时的视觉刺激，而能沉淀为可持续的内容资产：一个县城青年的两套人生，一位母亲在夜校里重新介绍自己，一名离职工程师在乡镇做回收——这些影像共同构成我们对“多元、包容、成长”的长期表达，也是企业社会责任在内容层面的具体落点。</p>
+
+        <h3>四、精品内容的长期主义：反差不该被消费完</h3>
+        <p>我们并不回避一个事实：反差题材容易被过度消费。因此极品反差在企业内部确立了一条“不追热点、只追人物”的内容纪律，年度更新节奏控制在重点专题十二条左右，宁可少发，也不把人物剪成一次性素材。同时，我们开放创作灵感与脚本方法，鼓励更多创作者用自己的方式拍摄身边的反差故事，用比赛、征集和投票等形式让社区参与选题。真正的影响力，不是让所有人记住一条爆款，而是让更多人愿意拿起设备、认真记录身边那个“看起来不像”的人。反差的意义，最终指向理解与陪伴；而一个内容品牌能持续运营下去的原因，也在于它愿意为这种理解付出时间。这既是极品反差的品牌理念，也是我们对“用户至上”最朴素的解释。</p>
+
+        <div class="jpf-anal-grid">
+          <div class="jpf-anal-card"><b>选题验证</b><span>800 字拍摄说明 · 伦理风险前置评估</span></div>
+          <div class="jpf-anal-card"><b>拍摄规范</b><span>双机位同期声 · 至少一次自由跟拍</span></div>
+          <div class="jpf-anal-card"><b>后期审看</b><span>保留完整表达 · 拒绝断章取义</span></div>
+          <div class="jpf-anal-card"><b>上线复核</b><span>事实、授权、版权三重确认</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPECIALS ============ -->
+  <section class="jpf-section" id="jpfSpecials">
+    <div class="jpf-shell">
+      <div class="jpf-section-head">
+        <div>
+          <span class="jpf-eyebrow">Special Programs</span>
+          <h2>专题企划 · <span>反差七十二小时</span></h2>
+          <p class="jpf-section-desc">每个专题以连续七十二小时的跟拍为基础，用长镜头替代速写，把一个人的多面状态放进同一条时间线里。</p>
+        </div>
+      </div>
+      <div class="jpf-special-grid">
+        <article class="jpf-special">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='s1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23142b31'/%3E%3Cstop offset='1' stop-color='%232e1b3d'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23s1)'/%3E%3Ccircle cx='120' cy='90' r='64' fill='%23ffd166' opacity='0.25'/%3E%3Cpath d='M0 260 Q140 200 260 250 T520 230 L640 260 V360 H0 Z' fill='%230d0e14' opacity='0.8'/%3E%3Crect x='380' y='70' width='180' height='180' rx='90' fill='%2345e0c0' opacity='0.2'/%3E%3Cpath d='M420 160 h100 M420 190 h70' stroke='%2345e0c0' stroke-width='8' opacity='0.8'/%3E%3C/svg%3E" alt="专题《城市与山谷》封面：圆形与山形交叠的冷暖画面" width="640" height="360">
+          <div class="jpf-special-body">
+            <h3>城市与山谷 · 十二人的双面生活</h3>
+            <p>同一个人，在写字楼和露营地各有一张脸。十二位受访者，十二段通勤之外的人生。</p>
+            <span class="jpf-special-status">更新中 · 已上线 5 / 12 集</span>
+            <ul>
+              <li>周五晚八点的登山包</li>
+              <li>会议室里的帐篷说明书</li>
+              <li>他给山写了一封辞职信</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="jpf-special">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='s2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%233a1a24'/%3E%3Cstop offset='1' stop-color='%23161d33'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23s2)'/%3E%3Cpath d='M60 300 L200 120 L320 240 L450 90 L600 280' stroke='%23ff3d5a' stroke-width='10' fill='none' opacity='0.8'/%3E%3Ccircle cx='200' cy='120' r='18' fill='%23ffd166'/%3E%3Ccircle cx='450' cy='90' r='14' fill='%2345e0c0'/%3E%3Cpath d='M60 330 h520' stroke='%239b6bff' stroke-width='4' opacity='0.7'/%3E%3C/svg%3E" alt="专题《手艺人的另一种时间》封面：折线路径与亮色节点" width="640" height="360">
+          <div class="jpf-special-body">
+            <h3>手艺人的另一种时间</h3>
+            <p>修表、斫琴、补瓷、织补，四位手艺人如何用自己的节奏对抗效率焦虑。</p>
+            <span class="jpf-special-status">已完结 · 全 4 集</span>
+            <ul>
+              <li>一只表芯里的四小时</li>
+              <li>他补的碗，裂缝会发光</li>
+              <li>织补铺里的慢镜头</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="jpf-special">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='s3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23131a2c'/%3E%3Cstop offset='1' stop-color='%232a1520'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23s3)'/%3E%3Crect x='90' y='90' width='130' height='160' rx='8' fill='%239b6bff' opacity='0.45'/%3E%3Crect x='250' y='60' width='130' height='190' rx='8' fill='%23ff3d5a' opacity='0.4'/%3E%3Crect x='410' y='110' width='130' height='140' rx='8' fill='%2345e0c0' opacity='0.4'/%3E%3Ccircle cx='320' cy='310' r='34' fill='%23ffd166' opacity='0.6'/%3E%3C/svg%3E" alt="专题《她们的第二身份》封面：三块深浅不一的竖幅色块" width="640" height="360">
+          <div class="jpf-special-body">
+            <h3>她们的第二身份</h3>
+            <p>白天是护士、会计、货车司机，夜里是乐队鼓手、绘本作者、搏击学员。</p>
+            <span class="jpf-special-status">更新中 · 已上线 3 / 8 集</span>
+            <ul>
+              <li>值完夜班去练鼓</li>
+              <li>方向盘与画笔之间</li>
+              <li>她的拳套上有名字</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AUTHORS ============ -->
+  <section class="jpf-section" id="jpfAuthors">
+    <div class="jpf-shell">
+      <div class="jpf-section-head">
+        <div>
+          <span class="jpf-eyebrow">Creators</span>
+          <h2>创作者矩阵 · <span>记录反差的人</span></h2>
+          <p class="jpf-section-desc">他们是极品反差内容生态的核心力量，长期在垂直领域深耕，用专业与耐心把真实拍得好看。</p>
+        </div>
+      </div>
+      <div class="jpf-author-grid">
+        <article class="jpf-author">
+          <div class="jpf-author-top">
+            <div class="jpf-avatar jpf-avatar-a">巷</div>
+            <div>
+              <div class="jpf-author-name">老巷唱片机</div>
+              <div class="jpf-author-field">人物访谈 · 音乐现场</div>
+            </div>
+          </div>
+          <p>从业十年的纪录片编导，偏爱在市井里找声音。擅长用长时间跟拍换取人物的放松状态，作品多次入选平台年度精品内容。</p>
+          <div class="jpf-author-nums"><span>作品 <b>86</b></span><span>粉丝 <b>42.6万</b></span></div>
+          <button class="jpf-act jpf-btn-sm" type="button" data-jpf-author="老巷唱片机：十年纪录片编导，代表作《白天修表，晚上开嗓》。坚持先建立信任，再开机拍摄。">查看作者</button>
+        </article>
+
+        <article class="jpf-author">
+          <div class="jpf-author-top">
+            <div class="jpf-avatar jpf-avatar-b">山</div>
+            <div>
+              <div class="jpf-author-name">山路观察员</div>
+              <div class="jpf-author-field">城市探索 · 行业观察</div>
+            </div>
+          </div>
+          <p>前交通工程师，现专职影像创作者。关注基础设施背后的人，习惯用数据与脚程同时丈量一条路，叙述克制但细节密集。</p>
+          <div class="jpf-author-nums"><span>作品 <b>54</b></span><span>粉丝 <b>28.1万</b></span></div>
+          <button class="jpf-act jpf-btn-sm" type="button" data-jpf-author="山路观察员：前交通工程师，专注基础设施题材影像，代表作《穿西装下乡的测量员》。">查看作者</button>
+        </article>
+
+        <article class="jpf-author">
+          <div class="jpf-author-top">
+            <div class="jpf-avatar jpf-avatar-c">格</div>
+            <div>
+              <div class="jpf-author-name">半格胶片</div>
+              <div class="jpf-author-field">日常记录 · 治愈影像</div>
+            </div>
+          </div>
+          <p>擅长把平常的一顿饭拍成一部小电影。相信温度来自细节的耐心，镜头语言安静，剪辑节奏慢而稳，是社区口碑推荐常客。</p>
+          <div class="jpf-author-nums"><span>作品 <b>112</b></span><span>粉丝 <b>51.7万</b></span></div>
+          <button class="jpf-act jpf-btn-sm" type="button" data-jpf-author="半格胶片：日常影像创作者，关注家庭与厨房题材，代表作《最安静的厨房，最吵的一顿饭》。">查看作者</button>
+        </article>
+
+        <article class="jpf-author">
+          <div class="jpf-author-top">
+            <div class="jpf-avatar jpf-avatar-d">谷</div>
+            <div>
+              <div class="jpf-author-name">山谷来信</div>
+              <div class="jpf-author-field">生活方式 · 深度访谈</div>
+            </div>
+          </div>
+          <p>曾在投行工作七年，如今在山里经营一间小工作室。作品坦诚、不回避失败，常在节制的叙述里给出强有力的现实判断。</p>
+          <div class="jpf-author-nums"><span>作品 <b>39</b></span><span>粉丝 <b>36.4万</b></span></div>
+          <button class="jpf-act jpf-btn-sm" type="button" data-jpf-author="山谷来信：转型创作者，专注人生选择类深度访谈，代表作《年薪百万辞职去养蜂》系列。">查看作者</button>
+        </article>
+
+        <article class="jpf-author">
+          <div class="jpf-author-top">
+            <div class="jpf-avatar jpf-avatar-e">片</div>
+            <div>
+              <div class="jpf-author-name">片场手记</div>
+              <div class="jpf-author-field">创作幕后 · 实用技巧</div>
+            </div>
+          </div>
+          <p>特效化妆与现场美术方向的实操型创作者，常以工作日志形式拆解幕后流程，教程清晰可复用，被大量创作者收藏。</p>
+          <div class="jpf-author-nums"><span>作品 <b>67</b></span><span>粉丝 <b>22.9万</b></span></div>
+          <button class="jpf-act jpf-btn-sm" type="button" data-jpf-author="片场手记：特效化妆与现场美术创作者，用工作日志拆解幕后流程，代表作《化妆台前的硬汉》。">查看作者</button>
+        </article>
+
+        <article class="jpf-author">
+          <div class="jpf-author-top">
+            <div class="jpf-avatar jpf-avatar-f">屑</div>
+            <div>
+              <div class="jpf-author-name">木屑与光</div>
+              <div class="jpf-author-field">手作DIY · 情感故事</div>
+            </div>
+          </div>
+          <p>木工房主理人，用作品讨论自我与期待。镜头常停在毛刺和划痕上，因为他认为不完美的部分才最能说明一个人的真实选择。</p>
+          <div class="jpf-author-nums"><span>作品 <b>45</b></span><span>粉丝 <b>19.8万</b></span></div>
+          <button class="jpf-act jpf-btn-sm" type="button" data-jpf-author="木屑与光：木工房主理人，擅长手作与自我成长题材，代表作《被叫学霸的第十年》。">查看作者</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="jpf-section" id="jpfReviews">
+    <div class="jpf-shell">
+      <div class="jpf-section-head">
+        <div>
+          <span class="jpf-eyebrow">Community Voice</span>
+          <h2>用户口碑 · <span>他们这样评价</span></h2>
+          <p class="jpf-section-desc">来自社区的短评与长评摘录，它们共同构成极品反差持续运营最直接的参考。</p>
+        </div>
+      </div>
+      <div class="jpf-quote-grid">
+        <blockquote class="jpf-quote">
+          <p>“我是从《菜市场里的钢琴》入坑的，本来以为是猎奇短视频，结果看完坐在工位上发了很久的呆。它没有解释，也没有煽情，就是把那个人拍完整了。”</p>
+          <footer><span class="jpf-avatar jpf-avatar-a">阿</span>阿哲不吃香菜 · 社区用户</footer>
+        </blockquote>
+        <blockquote class="jpf-quote">
+          <p>“作为同行，我特别认可他们后期审看那一条：保留完整表达。现在太多片子靠断章取义制造对立，极品反差至少在做减法。”</p>
+          <footer><span class="jpf-avatar jpf-avatar-b">导</span>导演小纪 · 独立纪录片从业者</footer>
+        </blockquote>
+        <blockquote class="jpf-quote">
+          <p>“高清真的高清。我在平板上一帧一帧看那期修表的，能看清齿轮反光，能看清他手指的纹路，这种质感很少见。”</p>
+          <footer><span class="jpf-avatar jpf-avatar-c">橘</span>橘子汽水 · 会员用户</footer>
+        </blockquote>
+        <blockquote class="jpf-quote">
+          <p>“我在专题里投了一个故事，客服第二天就回复了，还给了拍摄提纲建议。虽然最后没入选，但这个态度我愿意继续关注。”</p>
+          <footer><span class="jpf-avatar jpf-avatar-d">小</span>小路同学 · 投稿创作者</footer>
+        </blockquote>
+        <blockquote class="jpf-quote">
+          <p>“给四星半吧。内容没得挑，就是有些专题更新太慢，等一集等半个月。不过慢工出细活，我理解。”</p>
+          <footer><span class="jpf-avatar jpf-avatar-e">柚</span>柚子茶少糖 · 老用户</footer>
+        </blockquote>
+        <blockquote class="jpf-quote">
+          <p>“我们公司想找品牌叙事类的内容合作，看了几期企业动态，最后选了他们。交片准时，修改不敷衍，是值得信赖的团队。”</p>
+          <footer><span class="jpf-avatar jpf-avatar-f">林</span>林先生 · 品牌合作方</footer>
+        </blockquote>
+      </div>
+      <div class="jpf-rating">
+        <div><b>4.8 / 5</b><span>综合评分 · 12,480 条评价</span></div>
+        <div><b>93%</b><span>认为内容真实有深度</span></div>
+        <div><b>89%</b><span>愿意推荐给朋友</span></div>
+        <div><b>96%</b><span>认可画质与制作水准</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWS + PARTNERS ============ -->
+  <section class="jpf-section" id="jpfNews">
+    <div class="jpf-shell">
+      <div class="jpf-two-col">
+        <div>
+          <div class="jpf-section-head">
+            <div>
+              <span class="jpf-eyebrow">Company News</span>
+              <h2>企业动态</h2>
+            </div>
+          </div>
+          <div class="jpf-news">
+            <article class="jpf-news-item">
+              <div class="jpf-news-date">2026.11.18</div>
+              <div>
+                <h3>年度反差创作赛报名开启，设十个名额进入官方孵化</h3>
+                <p>面向全网创作者征集三分钟以内的反差题材作品，入围者将获得拍摄基金、剪辑指导与官方发布资源。报名截止 12 月 20 日。</p>
+              </div>
+            </article>
+            <article class="jpf-news-item">
+              <div class="jpf-news-date">2026.11.09</div>
+              <div>
+                <h3>平台完成高清转码升级，4K 原片下载全面开放</h3>
+                <p>本次升级覆盖全部精品内容，合作创作者可在后台下载 4K 母版，并新增帧级标注与素材归档功能。</p>
+              </div>
+            </article>
+            <article class="jpf-news-item">
+              <div class="jpf-news-date">2026.10.27</div>
+              <div>
+                <h3>“反差进校园”公益计划第三季启动，覆盖六座城市</h3>
+                <p>品牌团队走进高校开设纪实影像工作坊，提供设备借用与拍摄辅导，鼓励学生记录身边的真实反差故事。</p>
+              </div>
+            </article>
+            <article class="jpf-news-item">
+              <div class="jpf-news-date">2026.10.12</div>
+              <div>
+                <h3>创作者社区新增标签筛选与主题投票功能</h3>
+                <p>用户可按题材筛选视频，并对下季度专题方向投票。首轮投票共有 3.2 万人次参与，城市探索方向暂列第一。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div>
+          <div class="jpf-section-head">
+            <div>
+              <span class="jpf-eyebrow">Partners</span>
+              <h2>合作品牌</h2>
+            </div>
+          </div>
+          <div class="jpf-partners">
+            <div class="jpf-partner"><b>山野计划</b>户外生活方式品牌</div>
+            <div class="jpf-partner"><b>拾光手作</b>木作与家居合作方</div>
+            <div class="jpf-partner"><b>青禾唱片</b>独立音乐厂牌</div>
+            <div class="jpf-partner"><b>光合咖啡</b>门店场景合作品牌</div>
+            <div class="jpf-partner"><b>方言实验室</b>在地文化机构</div>
+            <div class="jpf-partner"><b>远方书店</b>城市阅读空间</div>
+          </div>
+          <div class="jpf-cta" style="margin-top:22px">
+            <div>
+              <h2>成为合作创作者</h2>
+              <p>提交你的作品与拍摄计划，官方团队将在三个工作日内回复。</p>
+            </div>
+            <button class="jpf-btn jpf-btn-primary" type="button" data-jpf-open="submit">立即投稿</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="jpf-section" id="jpfFaq">
+    <div class="jpf-shell">
+      <div class="jpf-section-head">
+        <div>
+          <span class="jpf-eyebrow">Help Center</span>
+          <h2>常见问题</h2>
+          <p class="jpf-section-desc">关于投稿、版权与观看的常见疑问，如有其他问题可通过页脚联系方式沟通。</p>
+        </div>
+      </div>
+      <div class="jpf-faq">
+        <details open>
+          <summary>如何向极品反差投稿自己的反差故事？</summary>
+          <p>点击页面中的“投稿”按钮，填写人物背景、预期落差与拍摄计划，至少附一条过往作品链接。编导团队会在三个工作日内给出初步回复，通过初筛后进入选题验证环节。</p>
+        </details>
+        <details>
+          <summary>投稿的影像需要达到什么画质标准？</summary>
+          <p>建议 1080p 及以上，帧率 25 或 30，同期声清晰。手机拍摄也可接受，但需要稳定画面与干净的收音环境。入选作品由平台统一完成高清转码与字幕制作。</p>
+        </details>
+        <details>
+          <summary>平台如何确认人物授权与内容合规？</summary>
+          <p>所有正片上线前均需完成出镜授权、拍摄地授权与音乐版权确认，涉及未成年人或特殊群体的内容需额外取得监护人同意，并遵守相关伦理规范。</p>
+        </details>
+        <details>
+          <summary>我能下载视频原片用于学习或剪辑练习吗？</summary>
+          <p>官方精品内容提供高清下载入口，仅限个人学习使用，请勿二次剪辑或商业传播。如需商业授权，请通过页脚邮箱提交申请。</p>
+        </details>
+        <details>
+          <summary>年度反差创作赛的评选标准是什么？</summary>
+          <p>从真实度、叙事完整度、影像完成度与情感力量四个维度综合评分，其中真实度权重最高。入围作品将由编导、摄影与社区代表共同评审。</p>
+        </details>
+        <details>
+          <summary>为什么有些专题更新较慢？</summary>
+          <p>因为专题以连续跟拍为基础，单集制作周期通常在四到六周。我们坚持宁可晚发，也不压缩人物表达的时间，请关注企业动态获取最新进度。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="jpf-footer">
+  <div class="jpf-shell">
+    <div class="jpf-footer-grid">
+      <div>
+        <div class="jpf-brand" style="margin-bottom:12px">
+          <span class="jpf-brand-mark">反</span>
+          <span>
+            <span class="jpf-brand-name">极品反差</span><br>
+            <span class="jpf-brand-sub">FANCHA STUDIO</span>
+          </span>
+        </div>
+        <p>极品反差官方网站 · 专注反差叙事的原创高清视频社区，持续为创作者与企业搭建值得信赖的内容生态。</p>
+        <p>联系邮箱：studio@fancha-official.example<br>合作电话：400-800-0000（工作日 10:00–19:00）</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <div class="jpf-footer-links">
+          <a href="#jpfVideos">精选视频</a>
+          <a href="#jpfAnalysis">反差解析</a>
+          <a href="#jpfSpecials">专题企划</a>
+          <a href="#jpfAuthors">创作者矩阵</a>
+        </div>
+      </div>
+      <div>
+        <h4>关于我们</h4>
+        <div class="jpf-footer-links">
+          <a href="#jpfNews">企业动态</a>
+          <a href="#jpfReviews">用户口碑</a>
+          <a href="#jpfFaq">常见问题</a>
+          <a href="#" data-jpf-open="submit">投稿与报名</a>
+        </div>
+      </div>
+      <div>
+        <h4>创作者服务</h4>
+        <div class="jpf-footer-links">
+          <a href="#" data-jpf-open="submit">上传作品</a>
+          <a href="#jpfSpecials">专题合作</a>
+          <a href="#jpfAnalysis">拍摄规范</a>
+          <a href="#" data-jpf-open="feedback">意见反馈</a>
+        </div>
+      </div>
+    </div>
+    <div class="jpf-footer-bottom">
+      <span>© 2026 极品反差官方网站 版权所有 · 持续运营中</span>
+      <span>备案号：京ICP备00000000号-1 · 增值电信业务经营许可证示例</span>
+    </div>
+  </div>
+</footer>
+
+<div class="jpf-modal" id="jpfModal" role="dialog" aria-modal="true" aria-labelledby="jpfModalTitle">
+  <div class="jpf-modal-card">
+    <button class="jpf-modal-close" type="button" id="jpfModalClose" aria-label="关闭弹窗">×</button>
+    <h3 id="jpfModalTitle">提示</h3>
+    <div id="jpfModalBody"></div>
+  </div>
+</div>
+
+<div class="jpf-toast" id="jpfToast" role="status" aria-live="polite"></div>
+<button class="jpf-to-top" id="jpfToTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('jpfToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-on'); }, 2200);
+  }
+
+  /* mobile nav */
+  var navToggle = document.getElementById('jpfNavToggle');
+  var nav = document.getElementById('jpfNav');
+  navToggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('is-open');
+    navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* search feedback */
+  var searchInput = document.getElementById('jpfSearchInput');
+  var searchBtn = document.getElementById('jpfSearchBtn');
+  var searchFeedback = document.getElementById('jpfSearchFeedback');
+  var searchData = [
+    '白天修表，晚上开嗓','穿西装下乡的测量员','最安静的厨房，最吵的一顿饭',
+    '年薪百万辞职去养蜂','化妆台前的硬汉','菜市场里的钢琴','城市与山谷','手艺人的另一种时间'
+  ];
+  function runSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchFeedback.textContent = '请输入关键词，例如“修表”“养蜂”“专题”。';
+      searchFeedback.classList.add('is-on');
+      return;
+    }
+    var hit = searchData.filter(function(item){ return item.indexOf(q) > -1; });
+    if(hit.length){
+      searchFeedback.textContent = '找到 ' + hit.length + ' 条相关内容：' + hit.slice(0,3).join('、') + '。可在下方精选视频中查看。';
+    }else{
+      searchFeedback.textContent = '暂未找到“' + q + '”的直接结果，试试“反差”“专题”或浏览下方精选视频。';
+    }
+    searchFeedback.classList.add('is-on');
+  }
+  searchBtn.addEventListener('click', runSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+  });
+
+  /* modal */
+  var modal = document.getElementById('jpfModal');
+  var modalTitle = document.getElementById('jpfModalTitle');
+  var modalBody = document.getElementById('jpfModalBody');
+  function openModal(title, html){
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    modal.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    modal.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('jpfModalClose').addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  var modalContent = {
+    submit: '<p>把你想拍的反差故事写成 300 字以上的说明，附上过往作品链接，发送至投稿邮箱。</p><p>投稿邮箱：studio@fancha-official.example<br>邮件标题格式：【投稿】人物名 + 一句话概括</p><p>如需报名年度反差创作赛，请在邮件正文注明“参赛”，并补充拍摄计划与预算。</p>',
+    feedback: '<p>欢迎反馈内容问题、播放异常或合作建议。我们会在两个工作日内由专人跟进。</p><p>反馈邮箱：feedback@fancha-official.example</p><p>你也可以在社区评论区直接留言，官方运营团队每天 18:00 前统一回复。</p>',
+    comment: '<p>评论功能在演示页中以弹窗形式呈现。正式版本支持楼中楼、表情与举报入口。</p><p>社区规则：尊重当事人，不臆测隐私，不对人物外貌与身份做恶意评价。精彩评论会被收录进“用户口碑”板块。</p>',
+    share: '<p>复制下方链接分享给朋友，或在社区中转发你喜欢的正片。</p><p id="jpfShareLink" style="word-break:break-all;color:#45e0c0">fancha-official.example/video/focus-index</p><button class="jpf-btn jpf-btn-primary jpf-btn-sm" type="button" id="jpfCopyBtn">复制链接</button>'
+  };
+
+  function bindCopy(){
+    var copyBtn = document.getElementById('jpfCopyBtn');
+    if(!copyBtn) return;
+    copyBtn.addEventListener('click', function(){
+      var link = document.getElementById('jpfShareLink');
+      var text = link ? link.textContent : '';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){
+          toast('链接已复制到剪贴板');
+        }).catch(function(){
+          toast('复制失败，请手动选择链接');
+        });
+      }else{
+        toast('当前环境不支持自动复制');
+      }
+    });
+  }
+
+  document.addEventListener('click', function(e){
+    var openBtn = e.target.closest('[data-jpf-open]');
+    if(openBtn){
+      e.preventDefault();
+      var type = openBtn.getAttribute('data-jpf-open');
+      if(type === 'submit'){
+        openModal('投稿与报名', modalContent.submit);
+      }else{
+        openModal('意见反馈', modalContent.feedback);
+      }
+      return;
+    }
+
+    var likeBtn = e.target.closest('[data-jpf-like]');
+    if(likeBtn){
+      e.preventDefault();
+      var liked = likeBtn.classList.toggle('is-liked');
+      likeBtn.textContent = liked ? '♥ 已点赞' : '♡ 点赞';
+      toast(liked ? '已记入你的点赞' : '已取消点赞');
+      return;
+    }
+
+    var saveBtn = e.target.closest('[data-jpf-save]');
+    if(saveBtn){
+      e.preventDefault();
+      var saved = saveBtn.classList.toggle('is-saved');
+      saveBtn.textContent = saved ? '★ 已收藏' : '☆ 收藏';
+      toast(saved ? '已加入收藏夹' : '已取消收藏');
+      return;
+    }
+
+    var shareBtn = e.target.closest('[data-jpf-share]');
+    if(shareBtn){
+      e.preventDefault();
+      openModal('分享这条内容', modalContent.share);
+      bindCopy();
+      return;
+    }
+
+    var commentBtn = e.target.closest('[data-jpf-comment]');
+    if(commentBtn){
+      e.preventDefault();
+      openModal('评论区', modalContent.comment);
+      return;
+    }
+
+    var authorBtn = e.target.closest('[data-jpf-author]');
+    if(authorBtn){
+      e.preventDefault();
+      openModal('创作者档案', '<p>' + authorBtn.getAttribute('data-jpf-author') + '</p><p>支持在正式版本中查看作品列表、订阅更新与私信联系。</p>');
+      return;
+    }
+  });
+
+  /* back to top */
+  var toTop = document.getElementById('jpfToTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){
+      toTop.classList.add('is-on');
+    }else{
+      toTop.classList.remove('is-on');
+    }
+  });
+  toTop.addEventListener('click', function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+})();
+</script>
+</body>
+                </html>
